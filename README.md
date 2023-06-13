@@ -8,13 +8,11 @@ Flask로 hangman 게임이 작성된 [레파지토리](https://github.com/learnd
 
 <br>
 
-## 구현사항
+## #️⃣ 구현사항
 - Dockerfile
-- 만든 Docker Image를 [Docker Hub]()에 등록 
+- 만든 Docker Image를 [Docker Hub](https://hub.docker.com/repository/docker/hmk9667/hangman/general)에 등록 
 
-<br>
-
-## 과정 
+## #️⃣ 과정 
 1. Dockerfile 작성하기
     - `FROM` : 기본 베이스 이미지는 python:3.8-slim-buster 
     - `LABLE` : 메타데이터. Maintainer로 작성자
@@ -37,5 +35,9 @@ docker run -p 4000:4000 hmk9667/hangman
 ```shell
 docker push hmk9667/hangman
 ``` 
-
 <br>
+
+## #️⃣ 결과화면
+![image](https://github.com/HyeM207/hangman_web/assets/63229014/cbdea548-28dc-45e3-9e49-2ab4e81acf04)
+
+
